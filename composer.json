@@ -1,5 +1,5 @@
 {
-    "name": "fleetbase/billing-api",
+    "name": "atomizedev/pallet-api",
     "version": "0.0.2",
     "description": "Enables billing of organizations on Fleetbase instance to generate revenue.",
     "keywords": [
@@ -23,9 +23,15 @@
             "email": "ron@fleetbase.io"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/atomizedev/core-api"
+        }
+    ],
     "require": {
         "php": "^7.4|^8.0",
-        "fleetbase/core-api": "^1.1.6-alpha",
+        "atomizedev/core-api": "dev-main",
         "laravel/cashier": "^13.17",
         "php-http/guzzle7-adapter": "^1.0",
         "psr/http-factory-implementation": "*",
